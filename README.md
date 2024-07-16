@@ -1,11 +1,11 @@
 # Presentation of --document-tests
 
-This repository is a demo of the use of case of documentation for tests.
+This repository is a demo of the use case for documentation for tests.
 Currently we have working proof of concept at https://github.com/Infineon/rust/tree/test_documentation.
 
-see (demo)[https://github.com/ifxfrancois/rust_doc_test_demo]
+see [demo](https://github.com/ifxfrancois/rust_doc_test_demo)
 
-## build doc
+## Build doc
 
 * build the rust fork at https://github.com/Infineon/rust/tree/test_documentation
 * link the produced toolchain to stage1
