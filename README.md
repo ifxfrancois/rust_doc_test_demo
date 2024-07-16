@@ -41,3 +41,10 @@ This proposes the new option `--document-tests` for rustdoc when this option is 
  * the test functions are gathered in a category called tests.
  
 For cargo the option `--document-tests` should run rustdoc with the option `--document-tests` on the project and on each integration tests and generate a unified documentation.
+
+
+## Limitation of the POC
+
+### Integration tests
+
+currently intgration tests are not added to the produced documentation.
