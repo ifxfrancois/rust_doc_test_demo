@@ -1,12 +1,14 @@
 # Presentation of --document-tests
 
-This repository is there to show some use case of tests documentation.
+This repository is a demo of the use of case of documentation for tests.
 Currently we have working proof of concept at https://github.com/Infineon/rust/tree/test_documentation.
+
+see (demo)[https://github.com/ifxfrancois/rust_doc_test_demo]
 
 ## build doc
 
 * build the rust fork at https://github.com/Infineon/rust/tree/test_documentation
-* link the produce toolchain to stage1
+* link the produced toolchain to stage1
 * run the command `cargo +stage1  rustdoc -- -Z unstable-options --document-tests --document-private-items`
 
 
@@ -34,7 +36,7 @@ As a demonstration the generated doc for the demo are under target/doc.
 
 ## Guide-level explanation
 
-This RFC proposes the new option `--document-tests` for rustdoc when this option is set:
+This proposes the new option `--document-tests` for rustdoc when this option is set:
  * the test modules are not filtered out of the documentation,
  * the test functions are gathered in a category called tests.
  
