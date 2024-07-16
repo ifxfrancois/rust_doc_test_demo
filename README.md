@@ -5,12 +5,6 @@ Currently we have working proof of concept at https://github.com/Infineon/rust/t
 
 see [demo](https://github.com/ifxfrancois/rust_doc_test_demo)
 
-## Build doc
-
-* build the rust fork at https://github.com/Infineon/rust/tree/test_documentation
-* link the produced toolchain to stage1
-* run the command `cargo +stage1  rustdoc -- -Z unstable-options --document-tests --document-private-items`
-
 
 ## Summary 
 
@@ -41,6 +35,13 @@ This proposes the new option `--document-tests` for rustdoc when this option is 
  * the test functions are gathered in a category called tests.
  
 For cargo the option `--document-tests` should run rustdoc with the option `--document-tests` on the project and on each integration tests and generate a unified documentation.
+
+
+## Build doc with documation of tests
+
+* build the rust fork at https://github.com/Infineon/rust/tree/test_documentation
+* link the produced toolchain to stage1
+* run the command `cargo +stage1  rustdoc -- -Z unstable-options --document-tests --document-private-items`
 
 
 ## Limitation of the POC
