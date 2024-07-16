@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"test":["it_works"]};

@@ -30,6 +30,8 @@ Our proposal would be to add a new option to rustdoc/cargo doc which doesn't fil
 Additionally the test functions would be grouped in a paragraph called "Tests" instead of being
 added to the function paragraph.
 
+As a demonstration the generated doc for the demo are under target/doc.
+
 ## Guide-level explanation
 
 This RFC proposes the new option `--document-tests` for rustdoc when this option is set:

@@ -1,0 +1,1 @@
+searchState.loadedDescShard("rust_doc_test_demo", 0, "check if the add function returns the correct value when …\ncheck if the add function returns the correct value when …")
