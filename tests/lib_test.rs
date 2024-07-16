@@ -7,7 +7,7 @@
 /// * check result
 /// * ...
 ///
-/// requirement (req_math_add_ID)[link to req.]
+/// * (req_math_add_ID)[https://example.com/link_to_req]
 #[test]
 fn it_works() {
     let result = rust_doc_test_demo::math::add(2, 2);

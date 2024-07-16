@@ -18,7 +18,7 @@ pub mod math {
         ///
         /// # Requirement
         ///
-        /// * (req_math_add_ID)[link to req.]
+        /// * [req_math_add_ID](https://example.com/link_to_req)
         #[test]
         fn it_works() {
             let result = add(2, 2);
@@ -41,7 +41,7 @@ mod tests {
     ///
     /// # requirement
     ///
-    /// * (req_math_add_ID)[link to req.]
+    /// * [req_math_add_ID](https://example.com/link_to_req)
     #[test]
     fn it_works() {
         let result = math::add(2, 2);

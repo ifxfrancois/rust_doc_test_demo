@@ -27,6 +27,8 @@ Additionally the test functions would be grouped in a paragraph called "Tests" i
 added to the function paragraph.
 
 As a demonstration the generated doc for the demo are under target/doc.
+![shows the test added to the Test category](readme_imgs/test_category.png)
+![shows a test documentation with a summary, a list of tests steps, and a link to a requirement](readme_imgs/test_example.png)
 
 ## Guide-level explanation
 
@@ -37,7 +39,7 @@ This proposes the new option `--document-tests` for rustdoc when this option is 
 For cargo the option `--document-tests` should run rustdoc with the option `--document-tests` on the project and on each integration tests and generate a unified documentation.
 
 
-## Build doc with documation of tests
+## Build doc with documentation of tests
 
 * build the rust fork at https://github.com/Infineon/rust/tree/test_documentation
 * link the produced toolchain to stage1
