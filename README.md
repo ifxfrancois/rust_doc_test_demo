@@ -50,4 +50,4 @@ For cargo the option `--document-tests` should run rustdoc with the option `--do
 
 ### Integration tests
 
-currently intgration tests are not added to the produced documentation.
+Currently integration tests are not added to the produced documentation.
