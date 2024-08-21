@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"test":["it_works"]};
+window.SIDEBAR_ITEMS = {"test":["add_unit_2_1","add_unit_2_3"]};
